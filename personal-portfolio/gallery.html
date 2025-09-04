@@ -1,14 +1,162 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Elegant Parasols</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-  
-</body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Elegant Parasols</a>
+                <button class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Browse our collection of handcrafted parasols</p>
+        </div>
+    </section>
+
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="victorian">Victorian</button>
+                <button class="filter-btn" data-filter="custom">Custom</button>
+                <button class="filter-btn" data-filter="restoration">Restoration</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-full">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="bridal">
+                    <div class="gallery-image">Bridal Parasol Image</div>
+                    <div class="gallery-overlay">
+                        <h3>Bridal Parasol</h3>
+                        <p>Hand-banded with French lace</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="victorian">
+                    <div class="gallery-image">Victorian Parasol Image</div>
+                    <div class="gallery-overlay">
+                        <h3>Victorian Design</h3>
+                        <p>Silk ribbon banding</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <div class="gallery-image">Custom Parasol Image</div>
+                    <div class="gallery-overlay">
+                        <h3>Custom Wedding Set</h3>
+                        <p>Matching parasols for bride and maids</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="restoration">
+                    <div class="gallery-image">Restoration Image</div>
+                    <div class="gallery-overlay">
+                        <h3>Antique Restoration</h3>
+                        <p>1920s parasol brought back to life</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <div class="gallery-image">Bridal Parasol Image 2</div>
+                    <div class="gallery-overlay">
+                        <h3>Modern Bridal</h3>
+                        <p>Contemporary design with satin bands</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="victorian">
+                    <div class="gallery-image">Victorian Parasol Image 2</div>
+                    <div class="gallery-overlay">
+                        <h3>Edwardian Style</h3>
+                        <p>Delicate lace overlay</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <div class="gallery-image">Custom Parasol Image 2</div>
+                    <div class="gallery-overlay">
+                        <h3>Garden Party</h3>
+                        <p>Floral themed custom design</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="restoration">
+                    <div class="gallery-image">Restoration Image 2</div>
+                    <div class="gallery-overlay">
+                        <h3>Family Heirloom</h3>
+                        <p>Century-old parasol carefully restored</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <div class="gallery-image">Bridal Parasol Image 3</div>
+                    <div class="gallery-overlay">
+                        <h3>Classic Elegance</h3>
+                        <p>Satin banding with pearl details</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Create Your Custom Parasol?</h2>
+            <p>Contact us to discuss your vision and get a quote</p>
+            <a href="contact.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegant Parasols</h3>
+                    <p>Handcrafted parasol banding and restoration services</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> contact@elegantparasols.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-etsy"></i></a>
+            </div>
+            <p class="copyright">&copy; 2023 Elegant Parasols. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
 </html>
